@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+"""Task 3"""
+
+
+def to_json_string(my_obj):
+    """Task 3"""
+
+    json.dumps(my_ohj)
