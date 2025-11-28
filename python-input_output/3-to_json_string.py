@@ -5,4 +5,4 @@
 def to_json_string(my_obj):
     """Task 3"""
 
-    json.dumps(my_ohj)
+    json.dumps(my_obj)
