@@ -1,2 +1,2 @@
 -- average
-Select AVG(*) FROM second_table
+Select AVG(*) as average FROM second_table
