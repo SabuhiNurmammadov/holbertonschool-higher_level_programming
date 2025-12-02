@@ -4,7 +4,8 @@
 
 import requests
 
-if __name__ == Æ"__main__":
+
+if __name__ == "__main__":
     url = "https://intranet.hbtn.io/status"
     req = requests.get(url)
     body = req.text
