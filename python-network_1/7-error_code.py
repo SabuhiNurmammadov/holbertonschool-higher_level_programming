@@ -13,4 +13,4 @@ if __name__ == "__main__":
         req.raise_for_status()
         print(req.text)
     except requests.exceptions.HTTPError as error:
-        print(f"{Error code: {error.response.status_code}")
+        print(f"{Error code: {error.response.status_code}}")
