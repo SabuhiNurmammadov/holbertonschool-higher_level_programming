@@ -2,7 +2,7 @@
 """Task 2"""
 
 
-import urllib.requst
+import urllib.request
 import urllib.parse
 import sys
 
