@@ -2,7 +2,7 @@
 """Task 9"""
 
 
-import requsets
+import requests
 import sys
 
 
