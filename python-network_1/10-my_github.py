@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
     try:
         req = requests.get(url, headers = headers)
-        print(response.json()['id'])
+        print(reqx.json()['id'])
     except Exception:
         print(None)
