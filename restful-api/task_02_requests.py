@@ -5,11 +5,12 @@
 import requests
 import csv
 
+
 url = "https://jsonplaceholder.typicode.com/posts"
 
 def fetch_and_print_posts():
     response = requests.get(url)
-    print(f"Status code: {response.status_code}")
+    print(f"Status Code: {response.status_code}")
 
     for i in response.json():
         print(i["title"])
